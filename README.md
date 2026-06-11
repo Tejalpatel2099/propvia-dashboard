@@ -90,7 +90,7 @@ supabase/
 ## Testing
 
 ```bash
-npm test          # run once (38 tests)
+npm test         
 npm run test:watch
 ```
 
@@ -129,19 +129,14 @@ npm run test:watch
    VITE_SUPABASE_ANON_KEY=<anon public key>
    ```
 
-4. **Run** — `npm run dev`, then open http://localhost:5173.
-   (Without `.env`, the app runs on bundled demo data so you can preview immediately.)
+4. **Run** — `npm run dev`, 
 
 ## Deployment (Vercel)
 
-1. Push the repo to GitHub.
-2. In [vercel.com](https://vercel.com): **Add New → Project**, import the repo (Vite is auto-detected).
-3. Under **Environment Variables**, add `VITE_SUPABASE_URL` and `VITE_SUPABASE_ANON_KEY`.
-4. Deploy. Every push to `main` redeploys automatically.
+Link - 
 
 ## Possible next steps
 
 - Authentication so only signed-in users can add listings
 - Server-side filtering + pagination for larger datasets
 - Image uploads via Supabase Storage instead of URLs
-- Edit/delete listings and a property detail page
