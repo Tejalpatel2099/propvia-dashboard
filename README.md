@@ -4,7 +4,8 @@ A full-stack property dashboard built for the Propvia technical assessment.
 Browse live listings, search and filter them, view portfolio analytics, and add
 new properties — backed by a PostgreSQL database (Supabase) and deployed on Vercel.
 
-**Live demo:** `<ADD YOUR VERCEL URL HERE>`
+**Live demo:**
+(https://propvia-dashboard.vercel.app/)
 
 ## Requirements coverage
 
