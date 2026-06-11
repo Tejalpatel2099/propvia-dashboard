@@ -5,7 +5,7 @@ Browse live listings, search and filter them, view portfolio analytics, and add
 new properties — backed by a PostgreSQL database (Supabase) and deployed on Vercel.
 
 **Live demo:**
-(https://propvia-dashboard.vercel.app/)
+https://propvia-dashboard.vercel.app/
 
 ## Requirements coverage
 
@@ -108,7 +108,7 @@ npm run test:watch
 1. **Clone and install**
 
    ```bash
-   git clone <repo-url>
+   git clone https://github.com/Tejalpatel2099/propvia-dashboard.git
    cd propvia-dashboard
    npm install
    ```
@@ -134,10 +134,19 @@ npm run test:watch
 
 ## Deployment (Vercel)
 
-Link - 
+Link - https://propvia-dashboard.vercel.app/
 
 ## Possible next steps
 
 - Authentication so only signed-in users can add listings
 - Server-side filtering + pagination for larger datasets
 - Image uploads via Supabase Storage instead of URLs
+
+
+## Submission Links
+
+Live Demo:
+https://propvia-dashboard.vercel.app
+
+GitHub Repository:
+https://github.com/Tejalpatel2099/propvia-dashboard
